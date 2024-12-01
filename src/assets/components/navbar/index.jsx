@@ -102,6 +102,12 @@ function Navbar() {
             >
               Login / Sign Up
             </button>
+            <img
+              onClick={() => navToggleFunc("/")}
+              src="/habot-logo2.jpg"
+              alt="Habot Logo"
+              className=" hidden screen-580px:block w-32 screen-480px:w-28 screen-420px:w-24"
+            />
           </div>
         </div>
       </section>

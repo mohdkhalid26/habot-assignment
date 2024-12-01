@@ -22,7 +22,15 @@ function Footer() {
                 className=" w-full cursor-pointer screen-370px:w-24"
               />
               <span className=" text-p2 font-p3 font-poppins screen-970px:text-p3 screen-750px:text-p4 screen-420px:text-p5">
-                © R Singhania
+                <span>© </span>
+                <a
+                  href="https://mohdkhalidportfolio.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" underline"
+                >
+                  Mohd Khalid
+                </a>
               </span>
             </div>
             <div className=" flex items-start justify-start leading-none text-p2 font-p3 gap-16 screen-970px:text-p3 screen-970px:gap-12 screen-750px:gap-8 screen-750px:text-p4 screen-420px:text-p5 screen-370px:w-full screen-370px:justify-between screen-370px:gap-0">
